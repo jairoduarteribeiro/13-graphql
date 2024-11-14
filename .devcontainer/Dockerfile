@@ -7,7 +7,8 @@ RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
         vim \
-        bash-completion; \
+        bash-completion \
+        sqlite3; \
     rm -rf /var/lib/apt/lists/*
 
 USER dev
