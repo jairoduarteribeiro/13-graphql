@@ -10,6 +10,7 @@
       "extensions": [
         "eamodio.gitlens",
         "golang.go",
+        "graphql.vscode-graphql-syntax",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-docker"
       ]
